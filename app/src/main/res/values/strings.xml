@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">FitTrack</string>
+    <!-- Dashboard-->
+    <string name="dasboard_title">FitTrack Dashboard</string>
+    <string name="activity_summary">Activity Summary</string>
+    <string name="total_workouts_format">Total Workouts: %d</string>
+    <string name="total_minutes_format">Time Elapsed: %d mins</string>
+    <string name="workout_categories">Workout Categories</string>
+    <string name="category_cardio">Cardio</string>
+    <string name="category_strength">Strength</string>
+    <string name="category_flexibility">Flexibility</string>
+    <string name="recent_activities">Activity Log</string>
+    <string name="empty_logs_placeholder">No completed workouts logged. Do something. Please.</string>
+    <string name="clear_logs_btn">Clear Logs</string>
+    <string name="placeholderText">Something is amiss…</string>
+
+
+    <!-- Exercise List -->
+    <string name="category_exercises_title">%s Exercises</string>
+    <string name="back_button">Go Back</string>
+
+    <!-- Details -->
+    <string name="log_exercise_title">Log Exercise</string>
+    <string name="instructions_header">Instructions</string>
+    <string name="target_duration_format">Target Duration: %s</string>
+    <string name="duration_label">Duration (Minutes)</string>
+    <string name="duration_error_msg">Please enter an actual duration. Yknow, the stuff between 1 and 9?</string>
+    <string name="log_workout_btn">Log Completed Workout</string>
 </resources>
