@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">FitTrack</string>
-    <!-- Dashboard-->
-    <string name="dasboard_title">FitTrack Dashboard</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">FitTrack Dashboard</string>
     <string name="activity_summary">Activity Summary</string>
     <string name="total_workouts_format">Total Workouts: %d</string>
     <string name="total_minutes_format">Time Elapsed: %d mins</string>
@@ -9,11 +10,15 @@
     <string name="category_cardio">Cardio</string>
     <string name="category_strength">Strength</string>
     <string name="category_flexibility">Flexibility</string>
+    <string name="category_hiit">HIIT</string>
     <string name="recent_activities">Activity Log</string>
     <string name="empty_logs_placeholder">No completed workouts logged. Do something. Please.</string>
     <string name="clear_logs_btn">Clear Logs</string>
     <string name="placeholderText">Something is amiss…</string>
 
+    <!-- Workout Log Item Formats -->
+    <string name="log_duration_format">%d mins</string>
+    <string name="log_calories_format">%d kcal</string>
 
     <!-- Exercise List -->
     <string name="category_exercises_title">%s Exercises</string>

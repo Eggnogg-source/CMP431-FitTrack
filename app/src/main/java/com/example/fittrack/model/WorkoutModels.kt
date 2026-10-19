@@ -3,13 +3,17 @@ package com.example.fittrack.model
 enum class ExerciseCategory {
     CARDIO,
     STRENGTH,
-    FLEXIBILITY
+    FLEXIBILITY,
+    HIIT
 }
 
 data class Exercise(
     val id: String,
     val name: String,
     val category: ExerciseCategory,
+    val difficulty: String,
+    val instructions: String,
+    // tips soon to come
     val defaultCaloriesPerMinute: Double
 )
 
