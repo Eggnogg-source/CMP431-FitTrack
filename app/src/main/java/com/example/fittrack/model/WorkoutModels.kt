@@ -13,7 +13,7 @@ data class Exercise(
     val category: ExerciseCategory,
     val difficulty: String,
     val instructions: String,
-    // tips soon to come
+    val tip: String,
     val defaultCaloriesPerMinute: Double
 )
 

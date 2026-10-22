@@ -62,7 +62,7 @@ fun ExerciseListScreen(
                     name = exercise.name,
                     difficulty = exercise.difficulty,
                     instruction = exercise.instructions,
-                    tip = "Stay controlled through the full range of motion.",
+                    tip = exercise.tip,
                     onClick = { onExerciseClick(exercise.id) }
                 )
             }
